@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-</head>
-<body>
+
    <input type="number"[(ngModel)]="numero1">
    <br><br>
    <input type="number"[(ngModel)]="numero2">
    <br><br>
 
-   <button (click)="somar()">+</button>
-   <button (click)="subtrair()">-</button>
-   <button (click)="multiplicar()">*</button>
-   <button (click)="dividir()">/</button>
+   <button (click)="Somar()">+</button>
+   <button (click)="Subtrair()">-</button>
+   <button (click)="Multiplicar()">*</button>
+   <button (click)="Dividir()">/</button>
 
    <h2>Resultado: {{resultado}}</h2>
    
-</body>
-</html>
+
 

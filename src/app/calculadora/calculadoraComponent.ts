@@ -18,21 +18,21 @@ export class CalculadoraComponent {
   numero2 = 0;
   resultado = 0;
 
-  somar(){
+  Somar(){
   this.resultado =
   this.numero1 + this.numero2;
 }
-subtrair(){
+Subtrair(){
   this.resultado =
   this.numero1 - this.numero2;
 }
 
-multiplicar(){
+Multiplicar(){
   this.resultado =
   this.numero1 * this.numero2;
 }
 
-dividir(){
+Dividir(){
   this.resultado =
   this.numero1 / this.numero2
 }
